@@ -5,6 +5,7 @@ export default function NavBar() {
   const router = useRouter();
   return (
     <nav>
+      {/* 이미지 경로는 간결하게 public폴더안에있는 파일이름앞 '/'만 붙이면 된다. */}
       <img src="/vercel.svg" />
       <div>
         <Link href="/">
