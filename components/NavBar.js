@@ -13,12 +13,7 @@ export default function NavBar() {
       </Link>
       <style jsx>{`
         nav {
-          background-color: cornsilk;
-        }
-        a {
-          margin-right: 5px;
-          text-decoration: none;
-          color: red;
+          background-color: tomato;
         }
         .active {
           font-weight: bold;
