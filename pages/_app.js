@@ -8,7 +8,9 @@ export default function App({ Component, pageProps }) {
     <div>
       <NavBar />
       <Component {...pageProps} />
-      <span>hello</span>
+      <footer>
+        <small>made by Junwoo</small>
+      </footer>
       <style jsx global>{`
         a {
           color: white;
